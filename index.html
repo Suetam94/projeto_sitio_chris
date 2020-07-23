@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sítio Chris</title>
+
+    <!-- Normalize -->
+    <link rel="stylesheet" href="css/normalize.css" as="style">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Estilo personalizado -->
+    <link rel="stylesheet" href="css/estilo.css" as="style">
+
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/89e70a8b58.js" crossorigin="anonymous"></script>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/fav_icon.png">
+
+</head>
+
+<body>
+
+    <header>
+        <div class="container d-flex justify-content-between">
+            <div>
+                <a href="index.html"><img class="p-2" id="imagem-cabecalho" src="img/logo_cabecalho.jpg" alt="logo da floricultura"></a>
+            </div>
+            <form class="form-inline">
+                <input class="pesquisar form-control mr-2" type="text" placeholder="O que você está procurando?">
+                <button class="btn btn-success">Pesquisar</button>
+            </form>
+            <div class="item align-self-center">
+                <h5 class="titulo-contato m-0">Fone e Whatsapp:</h5>
+                <p class="contato m-0"><i class="fas fa-phone-alt"></i> (49) 3442-8928</p>
+                <p class="contato m-0"><i class="fab fa-whatsapp"></i> (49) 3442-8928</p>
+            </div>
+            <div class="item align-self-start p-2">
+                <a class="redes-sociais" href="https://www.facebook.com/SitioChris/"><i class="facebook fab fa-facebook-square"></i></a>
+                <a class="redes-sociais" href="https://www.instagram.com/sitiochris/"><i class="instagram fab fa-instagram-square"></i></a>
+            </div>
+        </div>
+        <nav class="navegacao-cabecalho navbar navbar-expand-sm bg-success">
+                <ul class="navbar-nav m-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
+                    <li class="nav-item"><a class="nav-link" href="empresa.html">Empresa</a></li>
+                    <li class="nav-item"><a class="nav-link" href="produtos.html">Produtos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="servicos.html">Serviços</a></li>
+                    <li class="nav-item"><a class="nav-link" href="fale-conosco.html">Fale conosco</a></li>
+                </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <div id="carousel-controle" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                        <img src="img/produtos/C1.jpeg" class="img-fluid active">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/produtos/C2.png" class="img-fluid">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/produtos/C3.png" class="img-fluid">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/produtos/C4.png" class="img-fluid">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/produtos/C5.jpg" class="img-fluid">
+                    </div>
+
+                </div>
+
+                <a class="carousel-control-prev" href="#carousel-controle" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#carousel-controle" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Próximo</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="container">
+            <h4 class="destaques"><i class="far fa-star mr-2"></i>Destaques:</h4>
+        </div>
+
+        <div class="container mt-5 d-flex">
+            <div class="card" style="width: 25%;">
+                <img class="card-img-top" src="img/produtos/arranjos.jpg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Lindos arranjos</h5>
+                    <p class="card-text">Arranjos de diversas flores, a escolha do cliente.</p>
+                    <a href="#" class="btn btn-success">Solicite um orçamento</a>
+                </div>
+            </div>
+            <div class="card ml-2" style="width: 25%;">
+                <img class="card-img-top" src="img/produtos/gerbera.png" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Gérberas</h5>
+                    <p class="card-text">Cultivada com carinho por nós, pronta para ser dada com amor</p>
+                    <a href="#" class="btn btn-success">Solicite um orçamento</a>
+                </div>
+            </div>
+            <div class="card ml-2" style="width: 25%;">
+                <img class="card-img-top" src="img/produtos/vasos.png" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Vasos</h5>
+                    <p class="card-text">Os mais lindos vasos com as mais lindas flores e paisagismo</p>
+                    <a href="#" class="btn btn-success">Solicite um orçamento</a>
+                </div>
+            </div>
+            <div class="card ml-2" style="width: 25%;">
+                <img class="card-img-top" src="img/produtos/calandivas.png" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Calandivas e pimentas</h5>
+                    <p class="card-text">Exclusivas, cultivadas por nós, prontas para decorar</p>
+                    <a href="#" class="btn btn-success">Solicite um orçamento</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container mt-5 pb-2 d-flex justify-content-between align-items-center">
+            <div>
+                <img src="img/produtos/logo_trans.png" class="imagem-rodape" alt="imagem cabeçalho">
+            </div>
+            <div class="ml-2">
+                <h6 class="titulo-rodape"><i class="fas fa-map-marker-alt mr-2"></i>ONDE ESTAMOS:</h6>
+                <h6 class="conteudo-rodape mt-3 ml-4">SC-390, KM 09</h6>
+                <h6 class="conteudo-rodape ml-4">89700-000, Concórdia-SC</h6>
+            </div>
+            <div>
+                <h6 class="titulo-rodape"><i class="far fa-clock mr-2"></i>HORÁRIO DE FUNCIONAMENTO:</h6>
+                <h6 class="conteudo-rodape mt-3 ml-4">Seg-Sex: 8h00 às 18:00</h6>
+                <h6 class="conteudo-rodape ml-4">Sab-Dom: 8h00 às 16h00</h6>
+            </div>
+            <div>
+                <h6 class="titulo-rodape"><i class="fas fa-exclamation-circle"></i>CONTATOS:</h6>
+                <h6 class="conteudo-rodape mt-3"><i class="fas fa-phone-alt mr-1"></i>(49) 3442-8928</h6>
+                <h6 class="conteudo-rodape"><i class="fas fa-envelope mr-1"></i>sitiochris@hotmail.com</h6>
+            </div>
+            <div class="p-2">
+                <a class="redes-sociais" href="https://www.facebook.com/SitioChris/"><i class="facebook fab fa-facebook-square"></i></a>
+                <a class="redes-sociais" href="https://www.instagram.com/sitiochris/"><i class="instagram fab fa-instagram-square"></i></a>
+            </div>
+        </div>
+
+    </footer>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
